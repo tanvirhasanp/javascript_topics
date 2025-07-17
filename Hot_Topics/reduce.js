@@ -30,7 +30,7 @@ const characters = [
 ];
 
 // Get the total mass of all characters
-const totalMass = characters.reduce ( (acc,el) => {
+const totalMass = characters.reduce ( (acc,el) => {   
     return acc + parseInt(el.mass)
 }, 0)
 console.log(totalMass)
